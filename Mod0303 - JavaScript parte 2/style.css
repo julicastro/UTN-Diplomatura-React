@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+.back {
+    width: 90%;
+    height: 50rem;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cuadrado {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+
+#rojo {
+    background-color: red;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+.textarea-container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ej3{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15rem;
+}

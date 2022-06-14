@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+p li a{
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    width: 50rem;
+    margin: auto;
+    background-color: rgba(228, 228, 228, 0.473);
+    -webkit-box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+}
+.left-bar{
+    -webkit-box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+    width: 15rem;
+    height: 70rem;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img{
+    border-radius: 50%;
+    -webkit-box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 21px -6px rgba(0,0,0,0.75);
+}
+
+.left-bar .img-container img{
+    width: 12rem;
+    margin-top: 2rem;
+}
+
+.cv-content{
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.main-title{
+    border-bottom: 1px solid grey;
+    margin-top: .5rem;
+    margin-bottom: 10px;
+}
+.main-title-content{
+    margin-left: 1.5rem;
+}
