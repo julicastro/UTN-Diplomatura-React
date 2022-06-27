@@ -1,27 +1,27 @@
 import React from 'react';
+import "../styles/components/pages/HomePage.css";
+import logo from '../styles/components/img/logo.png'; 
 
 const HomePage = (props) => {
     return (
-       <main className='holder'>
-            <div className='homeimg'>
-                <img src="img/home/img01.jpg" alt='avion'/>
-            </div>
-            <div className='columnas'>
-                <div className='bienvenidos'>
-                    <h2>Bienvenidos</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minus optio at rem neque! Ducimus corporis, iste vero, cum minus culpa dolorem delectus doloribus laudantium ipsam neque quaerat saepe dolor.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minus optio at rem neque! Ducimus corporis, iste vero, cum minus culpa dolorem delectus doloribus laudantium ipsam neque quaerat saepe dolor.</p>
-
-                </div>
-                <div className='testimonios'>
-                    <h2>Testimonios</h2>
-                    <div className='testimonio'>    
-                        <span className='cita'>Simplemente Excelente</span>
-                        <span className='autor'>Lionel Messi - messi.com</span>
+        <div className="main-banner">
+            <div className="banner-body">
+                <div className="banner-body_container">
+                    <div className="banner-img">
+                        <img className="brillo" src={logo} alt="" />
+                    </div>
+                    <div className="banner-text">
+                        <h3>¡Bienvenidos!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat magnam iste tempora eos,
+                            assumenda repudiandae maiores excepturi asperiores delectus pariatur repellat saepe cum quam
+                            autem quae! Enim sapiente excepturi quis?</p>
+                        <div className="banner-button">
+                            <button href="servicios.html" className="boton">Servicios</button>
+                        </div>
                     </div>
                 </div>
             </div>
-       </main>
+        </div>
     )
 }
 

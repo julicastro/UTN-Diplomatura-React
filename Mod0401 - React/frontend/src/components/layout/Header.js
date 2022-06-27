@@ -1,13 +1,16 @@
 import React from 'react';
+import '../../styles/components/Layout/Header.css'
+import logo from '../../styles/components/img/logo.png'; 
+
 
 const Header = (props) => {
     return (
-        <header>
-            <div className='holder'>
-                <img src="img/logo.png" width="100%" alt="logo"/>
-                <h1>Transportes X</h1>
+        <div className="header">
+            <div href="index.html" className="logo">
+                <img src={logo} alt="" />
+                <h1>My React Page</h1>
             </div>
-        </header>
+        </div>
     )
 }
 

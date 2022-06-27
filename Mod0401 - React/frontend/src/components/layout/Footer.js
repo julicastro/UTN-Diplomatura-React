@@ -1,9 +1,10 @@
 import React from 'react';
+import '../../styles/components/Layout/Footer.css'
 
 const Footer = (props) => {
     return (
-        <footer>
-            <p>Derechos reservados. Transporte X 2022</p>
+        <footer className="footer">
+            <p>Diseñado por Julián Castro - &copy; 2022</p>
         </footer>
     )
 }
