@@ -3,10 +3,12 @@
         <div class="col-6 offset-3">
             <h4>Modificar Novedad</h4>
         </div>
-        <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
+        <form action="/admin/novedades/modificar" method="post">
             <input type="hidden" value="{{novedad.id}}" name="id">
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Titulo" name="titulo" value="{{novedad.titulo}}">
+                <input type="text" class="form-control" placeholder="Titulo" name="titulo" 
+                value="{{novedad.titulo}}"
+                >
             </div>
             <div class="form-group">
                 <textarea type="text" class="form-control" placeholder="Subtitulo" name="subtitulo">

@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "http://req.body.cuerpo",
+            "request": "launch",
+            "url": "http://localhost:3000/admin/novedades"
+        }
+    ]
+}
